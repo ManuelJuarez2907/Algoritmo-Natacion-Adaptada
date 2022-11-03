@@ -1,0 +1,5 @@
+Para video
+python detect.py --weights yolov7_custom_best.pt --conf 0.5 --img-size 640 --source .mp4 --view-img --no-trace
+
+Para imagen
+python detect.py --weights yolov7_custom_best.pt --conf 0.5 --img-size 640 --source .jpg --view-img --no-trace
